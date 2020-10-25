@@ -10,9 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".activity.MainActivity4"
+            android:label="@string/title_activity_main4"></activity>
+        <activity
             android:name=".activity.MainActivity3"
             android:label="@string/title_activity_main3"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".activity.ui.main.MainActivity"
             android:label="@string/title_activity_main"
